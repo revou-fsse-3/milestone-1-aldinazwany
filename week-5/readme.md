@@ -1,9 +1,7 @@
-This is **README** file
+# My Landing Website - MyCourse
+Netlify: https://statuesque-rolypoly-09f515.netlify.app/
 
-# My Landing Website - My Course
-Layout: https://wonderful-sprite-177a55.netlify.app/
-
-Layout: https://aldazw.tech/
+Domain: https://aldazw.tech/
 
 ## **Task**
 1. Semantic HTML
@@ -41,54 +39,45 @@ Hi, I am Aldin Azwany. Welcome to my landing page. I am delighted to present my 
 
 ![Myimage](./assets2/2.3%20Choose%20Revou%20and%20selected%20module.JPG)
 
-4. Now step to setup the basic info and type your assignment week and ends with /. Go to deploy button on the bottom
+4. Now step to setup the basic info and type your assignment week and ends with /. Go to deploy button on the bottom. If you already create new branch, then you can select it. (in this example, I already created another branch 'others' and push all the data into that branch)
 
-![Myimage](./assets2/2.4.1%20Select%20and%20fill%20data.JPG)
+![Myimage](./assets2/2.4.1%20Setup%20to%20Netlify-.png)
 
-![Myimage](./assets2/2.4.2%20Select%20and%20fill%20data.JPG)
 
 5. Deploying process
 
-![Myimage](./assets2/2.4.3%20Deploying.JPG)
+![Myimage](./assets2/2.4.2%20Deploy%20to%20netlify.png)
 
-6. Deploying in progress
+6. Deploying Succeed
 
-![Myimage](./assets2/2.4.4%20Deploy%20in%20Progress.JPG)
-
-7. Deploying Succeed
-
-![Myimage](./assets2/2.4.5%20Deployed%20success.JPG)
+![Myimage](./assets2/2.4.3%20Deploy%20Succeed.png)
 
 
-**C. How to connect your custom domain and DNS**
+**C. How to connect your Niagahoster with Cloudfire**
 
 1. Make sure you already buy external domain. In this example, I already bought domain from niagahoster. Please ensure it is already active.
 
 ![Myimage](./assets2/3.1%20Niagahoster%20active.JPG)
 
-![Myimage](./assets2/3.2%20Niagahoster%20status.JPG)
+2. Go to https://dash.cloudflare.com/ and log in or create new account. You will be redirected to dashboard. You can add the domain that you have in Niagahoster. 
 
-2. On netlify website, please select desired project in 'sites' menu
+3. Go to dashboard Cloudflare then select DNS Record and Name Server. Copy these nameservers and jump into Niagahoster. You should replace it with Nameservers from CloudFlare.
 
-![Myimage](./assets2/4.1%20Go%20to%20site%20configuration.JPG)
+![Myimage](./assets2/4.1.1%20adding%20to%20cloudfare.png)
 
-3. Go to domain management section and click add domain alias. Copy your domain in niagahoster (i.e Aldin.tech) then click verify --> adding domain. Below screenshot is the process after clicking these steps. 
+4. After that, go to Netlify Dashboard -> open your project -> Custom domain -> Add domain that you have set previously
 
-4. To use Netlify DNS, go to your domain registrar and change your domain’s name servers to the following custom hostnames assigned to your DNS zone.
+![Myimage](./assets2/4.1.2%20Change%20nameserver%20in%20Niagahoster.png)
 
-![Myimage](./assets2/4.4%20Domain%20DNS.JPG)
 
-5. On domain's name servers (in this case is Niagahoster), please go to DNS/Namaservers sections and copy all custom hostnames assigned to DNS zone in the Netlify. 
+5. All process are done. You should wait within 1x24 hours to let the NiagaHoster and Cloudfire setting up the DNS. Once it is activated, you will see this message.
 
-![Myimage](./assets2/4.5%20Change%20Nameserver%20in%20niagahoster.JPG)
+![Myimage](./assets2/4.1.3%20Succeed.png)
 
-6. All process are done. This domain is waiting for external DNS propagation that can take up to 24 hours).
+6. Once done, you can go to your custom link
 
-7. Once done, you can go to your custom link by clicking 'site overview' and select your projects and select your domain's link.
+7. You will be redirected to your website.
 
-![Myimage](./assets2/4.6%20Go%20to%20your%20custom%20link.JPG)
+![Myimage](./assets2/7.1.1%20Website.png)
 
-8. You will be redirected to your website.
-
-![Myimage](./assets2/4.7%20Redirect%20to%20website.JPG)0bae2c44336480f88f48140918d2f86422d516f
 Thank you
